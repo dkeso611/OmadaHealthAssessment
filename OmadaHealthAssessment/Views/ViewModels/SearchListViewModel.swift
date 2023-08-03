@@ -18,15 +18,15 @@ import Combine
   }
 
   private var cancellables: Set<AnyCancellable> = .init()
-  let service: MovieAPIService
+  let service: TMDBItemService
 
 
-  // Published property representing the current state of the ListViewModel.
+  // Published property representing the current state of the SearchListViewModel.
   @Published private(set) var state: State = .loading
   @Published private(set) var query = ""
 
 
-    init(service: MovieAPIService) {
+    init(service: TMDBItemService) {
       self.service = service
     }
 
@@ -43,9 +43,9 @@ import Combine
   private func loadItems(with query: String) async {
     do {
       // Fetch items using the provided getMovieList closure.
-      let list = try await service.getMovieList(query).map { TMDBItemViewModel(movie: $0) }
+      let list = try await service.getItems(query)
 
-      // Update the state to .value(list: [ItemViewModel]).
+      // Update the state to .value(list: [TMDBItemViewModel]).
       state = .value(query: query, list: list)
     } catch {
       // If an error occurs during loading, update the state to .error.

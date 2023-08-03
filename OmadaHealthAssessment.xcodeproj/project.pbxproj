@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE7C483E2A7C4EE700993CF3 /* TMDBItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C483D2A7C4EE700993CF3 /* TMDBItemService.swift */; };
+		DE7C48452A7C58DD00993CF3 /* NetworkClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C48442A7C58DD00993CF3 /* NetworkClientTests.swift */; };
+		DE7C48472A7C594300993CF3 /* SearchListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C48462A7C594300993CF3 /* SearchListViewModelTests.swift */; };
+		DE7C48492A7C5BBE00993CF3 /* TMDBItemServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C48482A7C5BBE00993CF3 /* TMDBItemServiceTests.swift */; };
+		DE7C484B2A7C5DE200993CF3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE7C484A2A7C5DE200993CF3 /* README.md */; };
 		DE81644E2A79A00200D0DF8A /* OmadaHealthAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81644D2A79A00200D0DF8A /* OmadaHealthAssessmentApp.swift */; };
-		DE8164502A79A00200D0DF8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81644F2A79A00200D0DF8A /* ContentView.swift */; };
 		DE8164522A79A00400D0DF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8164512A79A00400D0DF8A /* Assets.xcassets */; };
 		DE8164552A79A00400D0DF8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8164542A79A00400D0DF8A /* Preview Assets.xcassets */; };
 		DE81645F2A79A00400D0DF8A /* OmadaHealthAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81645E2A79A00400D0DF8A /* OmadaHealthAssessmentTests.swift */; };
@@ -17,7 +21,7 @@
 		DE8164782A79A01B00D0DF8A /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8164772A79A01B00D0DF8A /* NetworkClient.swift */; };
 		DE81647A2A79A07400D0DF8A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8164792A79A07400D0DF8A /* ListView.swift */; };
 		DE81647C2A79A09200D0DF8A /* SearchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81647B2A79A09200D0DF8A /* SearchListViewModel.swift */; };
-		DE81647E2A79A0BC00D0DF8A /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81647D2A79A0BC00D0DF8A /* ItemViewModel.swift */; };
+		DE81647E2A79A0BC00D0DF8A /* TMDBItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81647D2A79A0BC00D0DF8A /* TMDBItemViewModel.swift */; };
 		DE8164802A79A0DE00D0DF8A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81647F2A79A0DE00D0DF8A /* ItemRow.swift */; };
 		DE8164822A79A14200D0DF8A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8164812A79A14200D0DF8A /* LoadingView.swift */; };
 		DE8164842A79A15500D0DF8A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8164832A79A15500D0DF8A /* ErrorView.swift */; };
@@ -47,9 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE7C483D2A7C4EE700993CF3 /* TMDBItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBItemService.swift; sourceTree = "<group>"; };
+		DE7C48442A7C58DD00993CF3 /* NetworkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientTests.swift; sourceTree = "<group>"; };
+		DE7C48462A7C594300993CF3 /* SearchListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewModelTests.swift; sourceTree = "<group>"; };
+		DE7C48482A7C5BBE00993CF3 /* TMDBItemServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBItemServiceTests.swift; sourceTree = "<group>"; };
+		DE7C484A2A7C5DE200993CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE81644A2A79A00200D0DF8A /* OmadaHealthAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmadaHealthAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE81644D2A79A00200D0DF8A /* OmadaHealthAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmadaHealthAssessmentApp.swift; sourceTree = "<group>"; };
-		DE81644F2A79A00200D0DF8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE8164512A79A00400D0DF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8164542A79A00400D0DF8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE81645A2A79A00400D0DF8A /* OmadaHealthAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmadaHealthAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +68,7 @@
 		DE8164772A79A01B00D0DF8A /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		DE8164792A79A07400D0DF8A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DE81647B2A79A09200D0DF8A /* SearchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewModel.swift; sourceTree = "<group>"; };
-		DE81647D2A79A0BC00D0DF8A /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		DE81647D2A79A0BC00D0DF8A /* TMDBItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBItemViewModel.swift; sourceTree = "<group>"; };
 		DE81647F2A79A0DE00D0DF8A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		DE8164812A79A14200D0DF8A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		DE8164832A79A15500D0DF8A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
@@ -97,9 +105,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE7C483F2A7C529C00993CF3 /* TMDBItem */ = {
+			isa = PBXGroup;
+			children = (
+				DE81647D2A79A0BC00D0DF8A /* TMDBItemViewModel.swift */,
+				DE7C483D2A7C4EE700993CF3 /* TMDBItemService.swift */,
+			);
+			path = TMDBItem;
+			sourceTree = "<group>";
+		};
+		DE7C48402A7C52B800993CF3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C48432A7C530C00993CF3 /* ViewModels */,
+				DE81647F2A79A0DE00D0DF8A /* ItemRow.swift */,
+				DE8164792A79A07400D0DF8A /* ListView.swift */,
+				DE81648D2A79B94800D0DF8A /* DetailView.swift */,
+				DE8164812A79A14200D0DF8A /* LoadingView.swift */,
+				DE8164832A79A15500D0DF8A /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE7C48412A7C52D600993CF3 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				DE8164852A79A1E000D0DF8A /* MoviesAPIService.swift */,
+				DE8164872A79A20000D0DF8A /* MoviesRequest.swift */,
+				DE8164892A79A35100D0DF8A /* MoviesResponse.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		DE7C48422A7C52FC00993CF3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE81644D2A79A00200D0DF8A /* OmadaHealthAssessmentApp.swift */,
+				DE81648B2A79AFCB00D0DF8A /* DependencyContainer.swift */,
+				DE8164772A79A01B00D0DF8A /* NetworkClient.swift */,
+				DE81648F2A7A07EA00D0DF8A /* Extensions.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DE7C48432A7C530C00993CF3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DE81647B2A79A09200D0DF8A /* SearchListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		DE8164412A79A00200D0DF8A = {
 			isa = PBXGroup;
 			children = (
+				DE7C484A2A7C5DE200993CF3 /* README.md */,
 				DE81644C2A79A00200D0DF8A /* OmadaHealthAssessment */,
 				DE81645D2A79A00400D0DF8A /* OmadaHealthAssessmentTests */,
 				DE8164672A79A00400D0DF8A /* OmadaHealthAssessmentUITests */,
@@ -120,21 +180,10 @@
 		DE81644C2A79A00200D0DF8A /* OmadaHealthAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				DE81644D2A79A00200D0DF8A /* OmadaHealthAssessmentApp.swift */,
-				DE8164772A79A01B00D0DF8A /* NetworkClient.swift */,
-				DE81648F2A7A07EA00D0DF8A /* Extensions.swift */,
-				DE81648B2A79AFCB00D0DF8A /* DependencyContainer.swift */,
-				DE8164852A79A1E000D0DF8A /* MoviesAPIService.swift */,
-				DE8164872A79A20000D0DF8A /* MoviesRequest.swift */,
-				DE8164892A79A35100D0DF8A /* MoviesResponse.swift */,
-				DE8164792A79A07400D0DF8A /* ListView.swift */,
-				DE8164812A79A14200D0DF8A /* LoadingView.swift */,
-				DE81647F2A79A0DE00D0DF8A /* ItemRow.swift */,
-				DE81647B2A79A09200D0DF8A /* SearchListViewModel.swift */,
-				DE81648D2A79B94800D0DF8A /* DetailView.swift */,
-				DE8164832A79A15500D0DF8A /* ErrorView.swift */,
-				DE81644F2A79A00200D0DF8A /* ContentView.swift */,
-				DE81647D2A79A0BC00D0DF8A /* ItemViewModel.swift */,
+				DE7C48422A7C52FC00993CF3 /* Core */,
+				DE7C48412A7C52D600993CF3 /* Movie */,
+				DE7C48402A7C52B800993CF3 /* Views */,
+				DE7C483F2A7C529C00993CF3 /* TMDBItem */,
 				DE8164512A79A00400D0DF8A /* Assets.xcassets */,
 				DE8164532A79A00400D0DF8A /* Preview Content */,
 			);
@@ -153,6 +202,9 @@
 			isa = PBXGroup;
 			children = (
 				DE81645E2A79A00400D0DF8A /* OmadaHealthAssessmentTests.swift */,
+				DE7C48442A7C58DD00993CF3 /* NetworkClientTests.swift */,
+				DE7C48482A7C5BBE00993CF3 /* TMDBItemServiceTests.swift */,
+				DE7C48462A7C594300993CF3 /* SearchListViewModelTests.swift */,
 			);
 			path = OmadaHealthAssessmentTests;
 			sourceTree = "<group>";
@@ -270,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7C484B2A7C5DE200993CF3 /* README.md in Resources */,
 				DE8164552A79A00400D0DF8A /* Preview Assets.xcassets in Resources */,
 				DE8164522A79A00400D0DF8A /* Assets.xcassets in Resources */,
 			);
@@ -300,9 +353,9 @@
 				DE81647A2A79A07400D0DF8A /* ListView.swift in Sources */,
 				DE81647C2A79A09200D0DF8A /* SearchListViewModel.swift in Sources */,
 				DE81648E2A79B94800D0DF8A /* DetailView.swift in Sources */,
-				DE8164502A79A00200D0DF8A /* ContentView.swift in Sources */,
 				DE8164802A79A0DE00D0DF8A /* ItemRow.swift in Sources */,
 				DE81648A2A79A35100D0DF8A /* MoviesResponse.swift in Sources */,
+				DE7C483E2A7C4EE700993CF3 /* TMDBItemService.swift in Sources */,
 				DE81648C2A79AFCB00D0DF8A /* DependencyContainer.swift in Sources */,
 				DE81644E2A79A00200D0DF8A /* OmadaHealthAssessmentApp.swift in Sources */,
 				DE8164862A79A1E000D0DF8A /* MoviesAPIService.swift in Sources */,
@@ -310,7 +363,7 @@
 				DE8164822A79A14200D0DF8A /* LoadingView.swift in Sources */,
 				DE8164782A79A01B00D0DF8A /* NetworkClient.swift in Sources */,
 				DE8164842A79A15500D0DF8A /* ErrorView.swift in Sources */,
-				DE81647E2A79A0BC00D0DF8A /* ItemViewModel.swift in Sources */,
+				DE81647E2A79A0BC00D0DF8A /* TMDBItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +372,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE81645F2A79A00400D0DF8A /* OmadaHealthAssessmentTests.swift in Sources */,
+				DE7C48452A7C58DD00993CF3 /* NetworkClientTests.swift in Sources */,
+				DE7C48472A7C594300993CF3 /* SearchListViewModelTests.swift in Sources */,
+				DE7C48492A7C5BBE00993CF3 /* TMDBItemServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

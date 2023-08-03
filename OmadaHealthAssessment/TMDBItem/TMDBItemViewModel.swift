@@ -18,12 +18,6 @@ struct TMDBItemViewModel: Identifiable, Equatable {
   let description: String
 }
 
-
-
-struct TMDBDetailViewModel: Identifiable {
-  let id: Int
-}
-
 extension TMDBItemViewModel {
   init(movie: Movie) {
     var movieReleaseYear: String {

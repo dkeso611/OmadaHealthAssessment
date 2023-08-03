@@ -114,10 +114,10 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
   static let items =  MoviesResponse.mock.map { TMDBItemViewModel(movie: $0) }
-  static let mockViewModel: SearchListViewModel = .init(service: .mock)
-  static let failingViewModel: SearchListViewModel = .init(service: .failing)
+  static let mockViewModel: SearchListViewModel = .init(service: MovieItemServiceAdapter.adapt(from: .mock))
+  static let failingViewModel: SearchListViewModel = .init(service: MovieItemServiceAdapter.adapt(from: .failing))
 
-  static let liveViewModel: SearchListViewModel = .init(service: .live(networkClient: .live()))
+  static let liveViewModel: SearchListViewModel = .init(service: MovieItemServiceAdapter.adapt(from: .live(networkClient: NetworkClient.live())))
 
   static var previews: some View {
     ListView(viewState: .init(query: "Power", list: items))

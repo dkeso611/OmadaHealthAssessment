@@ -6,7 +6,6 @@
 //
 
 import Foundation
-//"https://api.themoviedb.org/3/movie/118408?language=en-US"
 
 // https://api.themoviedb.org/3/search/movie?api_key=b11fc621b3f7f739cb79b50319915f1d&language=en-US&query=hitman&page=1&include_adult=false
 enum MoviesRequest: RequestProtocol {
