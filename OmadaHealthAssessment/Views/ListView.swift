@@ -90,6 +90,7 @@ struct ListView: View {
                Divider()
              }
            }
+           .buttonStyle(PlainButtonStyle())
          }
        }
      }

@@ -48,7 +48,6 @@ struct ItemRow: View {
         Spacer()
       }
       .multilineTextAlignment(.leading)
-      .foregroundColor(.black)
       .padding()
       Spacer()
     }
@@ -72,7 +71,6 @@ struct ItemRow: View {
         Spacer()
       }
       .multilineTextAlignment(.leading)
-      .foregroundColor(.black)
       .padding()
       Spacer()
     }
